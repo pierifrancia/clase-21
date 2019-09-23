@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext');
+
+$alto-bloque: 1024px;
+$ancho-bloque: 1440px;
+$color-principal: #7452a3;
+$color-secundario: #ffffff;
+$color-terciario: #00309a;
+$color-texto-principal: #99f7e2;
+$color-texto-secundario: #7452a3;
+$color-texto-terciario: #ffffff; 
+$color-texto-cuarto: #060606;
+$font-principal: 'Libre Baskerville', serif;
+$font-secundario: 'Source Sans Pro', sans-serif;
+$distancia-left: 150px;
+
+body {
+    width: $ancho-bloque;
+}
+
+.bloque1 {
+width: $ancho-bloque;
+height: $alto-bloque;
+background-color: $color-principal;
+    h2{
+    color: $color-texto-principal; 
+    font-family: $font-principal;
+    font-size: 64px;
+    }
+    p {
+    color: $color-texto-terciario;   
+    font-family: $font-secundario;
+    font-size: 18px; 
+    }
+    div {
+    width: 790px;
+    position: relative;
+    left: $distancia-left; 
+    top: 335px;
+    }
+}
+
+
+.bloque2 {
+    width: $ancho-bloque;
+    height: $alto-bloque;
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .transparencia {
+        width: 705px;
+        height: 734px;
+        background-color: #f5f3f8;
+        h3 {
+            color:$color-texto-secundario;
+            font-family: $font-principal;
+            font-size: 46px;
+            color: $color-texto-secundario;
+            }
+        p {
+            color: $color-texto-cuarto;
+            font-family: $font-secundario;
+            font-size: 18px;
+            font-weight: 300px;
+        }
+        h5 {
+            color: $color-texto-principal;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+    }
+    img {
+        width: 800;
+        height: auto;
+        position: relative;
+    }
+}

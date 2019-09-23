@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext");
+body {
+  width: 1440px; }
+
+.bloque1 {
+  width: 1440px;
+  height: 1024px;
+  background-color: #7452a3; }
+  .bloque1 h2 {
+    color: #99f7e2;
+    font-family: "Libre Baskerville", serif;
+    font-size: 64px; }
+  .bloque1 p {
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px; }
+  .bloque1 div {
+    width: 790px;
+    position: relative;
+    left: 150px;
+    top: 335px; }
+
+.bloque2 {
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .bloque2 .transparencia {
+    width: 705px;
+    height: 734px;
+    background-color: #f5f3f8; }
+    .bloque2 .transparencia h3 {
+      color: #7452a3;
+      font-family: "Libre Baskerville", serif;
+      font-size: 46px;
+      color: #7452a3; }
+    .bloque2 .transparencia p {
+      color: #060606;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 18px;
+      font-weight: 300px; }
+    .bloque2 .transparencia h5 {
+      color: #99f7e2;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px; }
+  .bloque2 img {
+    width: 800;
+    height: auto;
+    position: relative; }
