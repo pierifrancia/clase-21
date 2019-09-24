@@ -1,28 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext");
-body {
-  width: 1440px; }
-
-.bloque1 {
-  width: 1440px;
-  height: 1024px;
-  background-color: #7452a3; }
-  .bloque1 h2 {
+section {
+  background-color: #7452a3;
+  padding: 40px 150px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  section nav {
+    display: flex;
+    justify-content: space-between; }
+    section nav h3 {
+      color: #99f7e2;
+      font-family: "Libre Baskerville", sans-serif; }
+    section nav img {
+      width: 36px;
+      height: 36px; }
+  section h2 {
     color: #99f7e2;
-    font-family: "Libre Baskerville", serif;
-    font-size: 64px; }
-  .bloque1 p {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 64px;
+    width: 65%;
+    margin: 0px; }
+  section p {
     color: #ffffff;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px; }
-  .bloque1 div {
-    width: 790px;
-    position: relative;
-    left: 150px;
-    top: 335px; }
+    font-size: 18px;
+    width: 65%;
+    margin: 20px 0; }
+  section .mouse-icon {
+    display: flex;
+    justify-content: center; }
+    section .mouse-icon img {
+      width: 36px;
+      height: 36px; }
+  section .slider-bullets {
+    position: absolute;
+    right: 50px;
+    top: 450px; }
+    section .slider-bullets img {
+      width: 12px;
+      height: 153px; }
 
 .bloque2 {
-  width: 1440px;
-  height: 1024px;
   background-color: #ffffff;
   display: flex;
   justify-content: flex-end;
@@ -33,7 +52,7 @@ body {
     background-color: #f5f3f8; }
     .bloque2 .transparencia h3 {
       color: #7452a3;
-      font-family: "Libre Baskerville", serif;
+      font-family: "Libre Baskerville", sans-serif;
       font-size: 46px;
       color: #7452a3; }
     .bloque2 .transparencia p {
@@ -45,7 +64,3 @@ body {
       color: #99f7e2;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 18px; }
-  .bloque2 img {
-    width: 800;
-    height: auto;
-    position: relative; }
